@@ -3,7 +3,7 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Jadwal Dokter - BeautyCare</title>
+        <title>Jadwal Dokter - GlowCare Clinic</title>
         <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400&family=DM+Sans:wght@300;400;500&display=swap">
         <link rel="stylesheet" href="asset/css/style.css">
         <style>
@@ -16,7 +16,7 @@
     </head>
     <body>
         <div class="page-top">
-            <div class="logo">BeautyCare</div>
+            <div class="logo">GlowCare Clinic</div>
             <a href="index.php" class="page-back">Kembali ke Beranda</a>
         </div>
         <main>

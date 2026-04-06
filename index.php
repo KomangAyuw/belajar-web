@@ -16,7 +16,7 @@
     <body>
         <!-- HEADER -->
         <header>
-            <div class="logo">BeautyCare</div>
+            <div class="logo">GlowCare Clinic</div>
             <nav>
                 <a href="#beranda">Beranda</a>
                 <a href="#treatment">Treatment</a>
@@ -59,6 +59,27 @@
                         <div class="treatment-body">
                             <h3 class="treatment-name">Laser Facial</h3>
                             <p class="treatment-desc">Teknologi laser terkini untuk mengatasi flek, bekas jerawat, dan tanda penuaan secara efektif dan aman.</p>
+                        </div>
+                    </div>
+                    <div class="treatment-card">
+                        <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600&auto=format&fit=crop&q=80" alt="Hydrafacial" class="treatment-img"/>
+                        <div class="treatment-body">
+                            <h3 class="treatment-name">Hydra Facial</h3>
+                            <p class="treatment-desc">Pembersihan mendalam sekaligus hidrasi intensif menggunakan teknologi vortex untuk kulit sehat.</p>
+                        </div>
+                    </div>
+                    <div class="treatment-card">
+                        <img src="asset/img/chemicalPeeling.jpg" alt="Chemical Peeling" class="treatment-img"/>
+                        <div class="treatment-body">
+                            <h3 class="treatment-name">Chemical Peeling</h3>
+                            <p class="treatment-desc">Pengolesan cairan kimia khusus untuk mengelupas lapisan kulit mati. Tujuannya untuk mencerahkan, meratakan warna kulit, dan memperbaiki tekstur.</p>
+                        </div>
+                    </div>
+                    <div class="treatment-card">
+                        <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600&auto=format&fit=crop&q=80" alt="Hydrafacial" class="treatment-img"/>
+                        <div class="treatment-body">
+                            <h3 class="treatment-name">Hydra Facial</h3>
+                            <p class="treatment-desc">Pembersihan mendalam sekaligus hidrasi intensif menggunakan teknologi vortex untuk kulit sehat.</p>
                         </div>
                     </div>
                     <div class="treatment-card">
