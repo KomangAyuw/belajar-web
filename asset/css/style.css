@@ -134,6 +134,9 @@ nav a:hover { /* ini adalah pseudo class yang berfungsi memberikan efek atau sty
 .treatment-card {
     background: #ffffff;
     border-radius: 4px;
+    display: block;
+    transition: transform 0.4s ease; /* membuat perubahan transformasi terjadi secara halus dengan durasi 0.4 detik dan efek easing */
+    cursor : pointer;
 }
 
 .treatment-img {
@@ -141,8 +144,10 @@ nav a:hover { /* ini adalah pseudo class yang berfungsi memberikan efek atau sty
     aspect-ratio: 4/3; /* perbandingan lebar dan tinggi untuk elemen fotonya */
     object-fit: cover; /* akan mengisi full dari containernya */
     display: block;
-    transition: transform 0.4s;
+    transition: transform 0.4s ease; /* membuat perubahan transformasi terjadi secara halus dengan durasi 0.4 detik dan efek easing */
+    cursor : pointer;  /* mengubah kursor menjadi pointer saat hover, memberikan indikasi bahwa elemen dapat diklik */
 }
+
 .treatment-body { padding: 24px; }
 .treatment-name {
     font-family: 'Playfair Display', serif;
