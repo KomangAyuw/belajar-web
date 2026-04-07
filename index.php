@@ -121,8 +121,8 @@
         </main>
         <!-- FOOTER -->
         <footer>
-            <div class="logo">BeautyCare</div>
-            <div class="footer-copy">@2025 BeautyCare Clinic. All rights reserved.</div>
+            <div class="logo">GlowCare Clinic</div>
+            <div class="footer-copy">@2025 GlowCare Clinic. All rights reserved.</div>
         </footer>
     </body>
 </html>
