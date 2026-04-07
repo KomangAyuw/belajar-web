@@ -26,6 +26,6 @@
             </form>
     </section>
 
-    <a href="index.php" </a>
+    <a href="index.php">Kembali</a>
 </body>
 </html>
