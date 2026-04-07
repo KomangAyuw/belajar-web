@@ -74,17 +74,17 @@
                         </div>
                     </div>
                     <div class="treatment-card">
-                        <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600&auto=format&fit=crop&q=80" alt="Hydrafacial" class="treatment-img"/>
+                        <img src="asset/img/microdermabrasion.jpg" alt="Microdermabrasion" class="treatment-img"/>
                         <div class="treatment-body">
-                            <h3 class="treatment-name">Hydra Facial</h3>
-                            <p class="treatment-desc">Pembersihan mendalam sekaligus hidrasi intensif menggunakan teknologi vortex untuk kulit sehat.</p>
+                            <h3 class="treatment-name">Microdermabrasion</h3>
+                            <p class="treatment-desc">Teknik pengelupasan kulit menggunakan kristal halus atau tip berlian untuk mengangkat sel kulit mati, sehingga kulit terasa lebih halus dan pori-pori tampak mengecil.</p>
                         </div>
                     </div>
                     <div class="treatment-card">
-                        <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600&auto=format&fit=crop&q=80" alt="Hydrafacial" class="treatment-img"/>
+                        <img src="asset/img/skinBooster.jpg" alt="Skin Booster" class="treatment-img"/>
                         <div class="treatment-body">
-                            <h3 class="treatment-name">Hydra Facial</h3>
-                            <p class="treatment-desc">Pembersihan mendalam sekaligus hidrasi intensif menggunakan teknologi vortex untuk kulit sehat.</p>
+                            <h3 class="treatment-name">Skin Booster</h3>
+                            <p class="treatment-desc">Suntikan nutrisi atau asam hialuronat dosis rendah ke seluruh permukaan wajah untuk memberikan hidrasi mendalam dan efek kulit bercahaya (glowing).</p>
                         </div>
                     </div>
                 </div>
