@@ -22,7 +22,11 @@
                 <a href="#treatment">Treatment</a>
                 <a href="jadwal.php">Jadwal</a>
                 <a href="#kontak">Kontak</a>
-                <a href="SignUp.php" class="hero">
+                <a href="SignUp.php" class="btn">Sign Up</a>
+            </nav>
+        </header>
+        <main>
+            <section class="hero" id="beranda">
                 <article class="hero-content">
                     <h2 class="hero-title">
                         Enhance Your
