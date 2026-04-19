@@ -1,8 +1,3 @@
-<!-- 
- Nama: Ni Komang Ayu Sumeitri
- NIM: F1D02410084 
--->
-
 <!DOCTYPE html>
 <html lang="id">
     <head>
@@ -19,28 +14,45 @@
             <div class="logo">GlowCare Clinic</div>
             <nav>
                 <a href="#beranda">Beranda</a>
+                <a href="#tentang">Tentang kami</a>
                 <a href="#treatment">Treatment</a>
+                <a href="#treatment">Spesialis</a>
                 <a href="jadwal.php">Jadwal</a>
                 <a href="#kontak">Kontak</a>
                 <a href="SignUp.php" class="btn">Sign Up</a>
             </nav>
         </header>
         <main>
-            <section class="hero" id="beranda">
-                <article class="hero-content">
-                    <h2 class="hero-title">
+            <!-- ══ HERO ══ -->
+            <article id="beranda" class="hero">
+                <section class="hero-left">
+                    <p class="hero-eyebrow">Premium Beauty Clinic</p>
+                    <h1 class="hero-title">
                         Enhance Your
-                        <em>Natural Beauty</em> <!-- tag ini memberikan style italic pada teks -->
-                    </h2>
+                        <em>Natural Beauty</em>
+                    </h1>
+                    <div class="hero-divider"><div class="divider-dot"></div></div>
                     <p class="hero-text">
-                        Rasakan pengalaman perawatan kecantikan eksklusif yang dirancang 
-                        untuk menonjolkan kecantikan alami Anda.
+                        Rasakan pengalaman perawatan kecantikan eksklusif yang dirancang untuk menonjolkan
+                        kecantikan alami Anda.
                     </p>
                     <div class="hero-buttons">
-                        <a href="#kontak" class="btn">Book Appointment</a>
+                        <a href="#jadwal" class="btn-primary">Book Appointment</a>
+                        <a href="#treatment" class="btn-secondary">Explore Services</a>
                     </div>
-                </article>
-            </section>
+                </section>
+                <section class="hero-right">
+                    <img src="asset/img/heroa.png" alt="Beauty"/>
+                </section>
+            
+                <section class="hero-stats-bar">
+                    <div class="stat-item"><div class="stat-num">5.000+</div><div class="stat-label">Happy Clients</div></div>
+                    <div class="stat-item"><div class="stat-num">15+</div><div class="stat-label">Treatments</div></div>
+                    <div class="stat-item"><div class="stat-num">8+</div><div class="stat-label">Specialists</div></div>
+                    <div class="stat-item"><div class="stat-num">6 Thn</div><div class="stat-label">Pengalaman</div></div>
+                </section>
+            </article>
+            
             <!-- Treatment -->
             <section id="treatment">
                 <h2 class="section-header">Pilihan <em>Treatment</em></h2>
@@ -97,22 +109,22 @@
                     
                     <div class="form-group">
                         <label class="form-label">Nama Lengkap</label>
-                        <input type="text" class="form-input" placeholder="Nama kamu" required> <!-- placeholder itu teks petunjuk sementara dalam input -->
+                        <input type="text" class="form-input"  name="nama" placeholder="Nama kamu"> <!-- placeholder itu teks petunjuk sementara dalam input -->
                     </div>
                     
                     <div class="form-group">
                         <label class="form-label">Telepon</label>
-                        <input type="tel" class="form-input" placeholder="+62" required> <!-- required itu kasi pesan kalau belum di inputkan  -->
+                        <input type="tel" class="form-input" name="telp" placeholder="+62"> 
                     </div>
                     
                     <div class="form-group">
                         <label class="form-label">Email</label>
-                        <input type="email" class="form-input" placeholder="email@contoh.com" required> 
+                        <input type="text" class="form-input" name="email" placeholder="email@contoh.com" > 
                     </div>
                     
                     <div class="form-group">
                         <label class="form-label">Pesan</label>
-                        <textarea class="form-textarea" placeholder="Ceritakan keluhan atau pertanyaan kamu..."></textarea>
+                        <textarea class="form-textarea" name="pesan" placeholder="Ceritakan keluhan atau pertanyaan kamu..."></textarea>
                         <!-- textarea itu bisa input lebih sebaris dan bisa input enter juga -->
                     </div>
                     <button type="submit" class="btn">Kirim Pesan</button>
@@ -124,5 +136,7 @@
             <div class="logo">GlowCare Clinic</div>
             <div class="footer-copy">@2025 GlowCare Clinic. All rights reserved.</div>
         </footer>
+
+        <script src="asset/js/script.js"></script>
     </body>
 </html>

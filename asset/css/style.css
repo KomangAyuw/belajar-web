@@ -47,49 +47,8 @@ nav a:hover { /* ini adalah pseudo class yang berfungsi memberikan efek atau sty
     border-bottom: 1px solid #c55085;
 }
 
-/* HERO */
-.hero {
-    position: relative;
-    width: 100%;
-    min-height: 100vh; /* elemen memiliki tinggi minimal sebesar layar penuh */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    overflow: hidden;
-    background: #f9e7ef;
-}
-.hero-content {
-    position: relative;
-    z-index: 2;
-    text-align: center;
-    padding: 0 24px;
-    max-width: 720px;
-    margin: 0 auto;
-}
-.hero-title {
-    font-family: 'Playfair Display', serif;
-    font-size: 95px;
-    font-weight: 400;
-    color: #3d1a22;
-    margin-bottom: 18px;
-}
-.hero-title em { /* kasi style pada element em yang berada di container dengan class hero-title */
-    color: #c55085;
-    display: block;
-}
-.hero-text {
-    font-size: 15px;
-    line-height: 1.9;
-    color: #7a4d5c;
-    max-width: 460px;
-    margin: 0 auto 44px;
-    font-weight: 300;
-}
-.hero-buttons {
-    display: flex;
-    gap: 16px;
-    justify-content: center;
-}
+/* HERO */ 
+
 .btn {
     background: transparent;
     color: #c55085;
@@ -109,6 +68,181 @@ nav a:hover { /* ini adalah pseudo class yang berfungsi memberikan efek atau sty
     color: #ffffff;
     transform: translateY(-2px); /* akan berubah posisi ke atas karena Y negatif */
 }
+.hero {
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: #f9e7ef;
+    padding: 100px 56px 80px;
+}
+ 
+/* Lingkaran dekoratif */
+.hero::before {
+    content: "";
+    position: absolute;
+    right: 280px; top: 50%;
+    transform: translateY(-50%);
+    width: 480px; height: 480px;
+    border-radius: 50%;
+    background: #f2c4ce;
+    z-index: 0;
+}
+ 
+.hero::after {
+    content: "";
+    position: absolute;
+    right: 0; top: 50%;
+    transform: translateY(-50%);
+    width: 380px; height: 380px;
+    border-radius: 50%;
+    background: #a33d6d;
+    z-index: 0;
+}
+ 
+.hero-left {
+    position: relative;
+    left: 70px;
+    z-index: 2;
+    max-width: 460px;
+    flex-shrink: 0;
+}
+ 
+.hero-right {
+    position: absolute;
+    right: 0px; bottom: 0;
+    z-index: 1;
+    height: 95%;
+    display: flex;
+    align-items: flex-end;
+}
+ 
+.hero-right img {
+    height: 100%;
+    width: auto;
+    object-fit: contain;
+    object-position: bottom;
+    display: block;
+}
+ 
+.hero-eyebrow {
+    font-size: 14px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: #c55085;
+    margin-bottom: 20px;
+}
+ 
+.hero-title {
+    font-family: 'Playfair Display', serif;
+    font-size: 70px;
+    font-weight: 700;
+    color: #3d1a22;
+    line-height: 1.15;
+    margin-bottom: 20px;
+}
+ 
+.hero-title em {
+    font-style: italic;
+    color: #c55085;
+}
+ 
+.hero-divider {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+}
+ 
+.hero-divider::before,
+.hero-divider::after {
+    content: "";
+    display: block;
+    width: 36px; height: 1px;
+    background: #f2c4ce;
+}
+ 
+.divider-dot {
+    width: 4px; height: 4px;
+    border-radius: 50%;
+    background: #c55085;
+    opacity: .6;
+}
+ 
+.hero-text {
+    font-size: 15px;
+    line-height: 1.8;
+    color: #7a4d5c;
+    margin-bottom: 36px;
+    font-weight: 300;
+}
+ 
+.hero-buttons {
+    display: flex;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+ 
+.btn-primary {
+    background: #c55085;
+    color: #ffffff;
+    padding: 12px 28px;
+    border-radius: 50px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 500;
+    transition: background 0.3s, transform 0.2s;
+}
+ 
+.btn-primary:hover {
+    background: #a33d6d;
+    transform: translateY(-2px);
+}
+ 
+.btn-secondary {
+    background: transparent;
+    color: #c55085;
+    padding: 11px 28px;
+    border-radius: 50px;
+    font-size: 11px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    border: 1px solid #c55085;
+    transition: background 0.3s, color 0.3s, transform 0.2s;
+}
+ 
+.btn-secondary:hover {
+    background: #c55085;
+    color: #ffffff;
+    transform: translateY(-2px);
+}
+ 
+/* Stats bar */
+.hero-stats-bar {
+    position: absolute; bottom: 0; left: 0; right: 0; z-index: 3;
+    display: flex; justify-content: center; gap: 0; align-items: stretch;
+    background: #f9e7efea;
+    border-top: 1px solid #f2c4ce;
+}
+
+.stat-item {
+    padding: 18px 48px;
+    text-align: center;
+    border-right: 1px solid #f2c4ce;
+}
+
+.stat-item:last-child { border-right: none; }
+
+.stat-num { font-family: 'Playfair Display', serif; font-size: 24px; color: #c55085; line-height: 1; }
+.stat-label { font-size: 9px; letter-spacing: 2.5px; text-transform: uppercase; color: #b89098; margin-top: 4px; }
 
 /* TREATMENT */
 #treatment {
