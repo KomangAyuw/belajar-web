@@ -15,7 +15,7 @@
             <nav>
                 <a href="#beranda">Beranda</a>
                 <a href="#tentang">Tentang kami</a>
-                <a href="#treatment">Treatment</a>
+                <a href="#services">Treatment</a>
                 <a href="#treatment">Spesialis</a>
                 <a href="jadwal.php">Jadwal</a>
                 <a href="#kontak">Kontak</a>
@@ -53,54 +53,105 @@
                 </section>
             </article>
             
-            <!-- Treatment -->
-            <section id="treatment">
-                <h2 class="section-header">Pilihan <em>Treatment</em></h2>
-                <div class="treatment-grid">
-                    <div class="treatment-card">
-                        <img src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=600&auto=format&fit=crop&q=80" alt="Facial" class="treatment-img"/>
-                        <div class="treatment-body">
-                            <h3 class="treatment-name">Luxury Facial</h3>
-                            <p class="treatment-desc">Perawatan wajah mendalam dengan serum premium dan teknik massage eksklusif.</p>
-                        </div>
+            <!-- Services -->
+            <section id="services">
+            <h2 class="section-header">Pilihan <em>Services</em></h2>
+            <p class="section-subheader">Temukan rangkaian perawatan kecantikan eksklusif kami yang dirancang untuk menonjolkan kecantikan alami Anda</p>
+        
+            <div class="services-grid">
+        
+                <!-- Facelift -->
+                <div class="service-card">
+                    <div class="service-img-wrap">
+                        <img 
+                            src="https://images.unsplash.com/photo-1570172619644-dfd03ed5d881?w=700&auto=format&fit=crop&q=80" 
+                            alt="Facelift Procedures" 
+                            class="service-img"
+                        />
+                        <div class="service-img-overlay"></div>
                     </div>
-                    <div class="treatment-card">
-                        <img src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=600&auto=format&fit=crop&q=80" alt="Laser" class="treatment-img"/>
-                        <div class="treatment-body">
-                            <h3 class="treatment-name">Laser Facial</h3>
-                            <p class="treatment-desc">Teknologi laser terkini untuk mengatasi flek, bekas jerawat, dan tanda penuaan secara efektif dan aman.</p>
-                        </div>
-                    </div>
-                    <div class="treatment-card">
-                        <img src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=600&auto=format&fit=crop&q=80" alt="Hydrafacial" class="treatment-img"/>
-                        <div class="treatment-body">
-                            <h3 class="treatment-name">Hydra Facial</h3>
-                            <p class="treatment-desc">Pembersihan mendalam sekaligus hidrasi intensif menggunakan teknologi vortex untuk kulit sehat.</p>
-                        </div>
-                    </div>
-                    <div class="treatment-card">
-                        <img src="asset/img/chemicalPeeling.jpg" alt="Chemical Peeling" class="treatment-img"/>
-                        <div class="treatment-body">
-                            <h3 class="treatment-name">Chemical Peeling</h3>
-                            <p class="treatment-desc">Pengolesan cairan kimia khusus untuk mengelupas lapisan kulit mati. Tujuannya untuk mencerahkan, meratakan warna kulit, dan memperbaiki tekstur.</p>
-                        </div>
-                    </div>
-                    <div class="treatment-card">
-                        <img src="asset/img/microdermabrasion.jpg" alt="Microdermabrasion" class="treatment-img"/>
-                        <div class="treatment-body">
-                            <h3 class="treatment-name">Microdermabrasion</h3>
-                            <p class="treatment-desc">Teknik pengelupasan kulit menggunakan kristal halus atau tip berlian untuk mengangkat sel kulit mati, sehingga kulit terasa lebih halus dan pori-pori tampak mengecil.</p>
-                        </div>
-                    </div>
-                    <div class="treatment-card">
-                        <img src="asset/img/skinBooster.jpg" alt="Skin Booster" class="treatment-img"/>
-                        <div class="treatment-body">
-                            <h3 class="treatment-name">Skin Booster</h3>
-                            <p class="treatment-desc">Suntikan nutrisi atau asam hialuronat dosis rendah ke seluruh permukaan wajah untuk memberikan hidrasi mendalam dan efek kulit bercahaya (glowing).</p>
-                        </div>
+                    <div class="service-body">
+                        <span class="service-tag">Surgical</span>
+                        <h3 class="service-name">Facelift Procedures</h3>
+                        <p class="service-desc">Teknik bedah canggih untuk memulihkan kontur wajah yang tampak muda dengan hasil alami dan tahan lama.</p>
+                        <a href="facelift.php" class="service-link">
+                            Learn more
+                            <span class="service-link-arrow">→</span>
+                        </a>
                     </div>
                 </div>
-            </section>
+        
+                <!-- Botox & Fillers -->
+                <div class="service-card">
+                    <div class="service-img-wrap">
+                        <img 
+                            src="https://images.unsplash.com/photo-1512290923902-8a9f81dc236c?w=700&auto=format&fit=crop&q=80" 
+                            alt="Botox & Fillers" 
+                            class="service-img"
+                        />
+                        <div class="service-img-overlay"></div>
+                    </div>
+                    <div class="service-body">
+                        <span class="service-tag">Injectable</span>
+                        <h3 class="service-name">Botox & Fillers</h3>
+                        <p class="service-desc">Perawatan suntik yang disetujui FDA untuk menghaluskan kerutan dan memulihkan volume wajah secara alami.</p>
+                        <a href="botox.php" class="service-link">
+                            Learn more
+                            <span class="service-link-arrow">→</span>
+                        </a>
+                    </div>
+                </div>
+        
+                <!-- Laser Treatments -->
+                <div class="service-card">
+                    <div class="service-img-wrap">
+                        <img 
+                            src="https://images.unsplash.com/photo-1515377905703-c4788e51af15?w=700&auto=format&fit=crop&q=80" 
+                            alt="Laser Treatments" 
+                            class="service-img"
+                        />
+                        <div class="service-img-overlay"></div>
+                    </div>
+                    <div class="service-body">
+                        <span class="service-tag">Technology</span>
+                        <h3 class="service-name">Laser Treatments</h3>
+                        <p class="service-desc">Teknologi laser terkini untuk mengatasi pigmentasi, bekas jerawat, dan tanda penuaan secara efektif.</p>
+                        <a href="laser.php" class="service-link">
+                            Learn more
+                            <span class="service-link-arrow">→</span>
+                        </a>
+                    </div>
+                </div>
+        
+                <!-- Body Contouring -->
+                <div class="service-card">
+                    <div class="service-img-wrap">
+                        <img 
+                            src="https://images.unsplash.com/photo-1607619056574-7b8d3ee536b2?w=700&auto=format&fit=crop&q=80" 
+                            alt="Body Contouring" 
+                            class="service-img"
+                        />
+                        <div class="service-img-overlay"></div>
+                    </div>
+                    <div class="service-body">
+                        <span class="service-tag">Contouring</span>
+                        <h3 class="service-name">Body Contouring</h3>
+                        <p class="service-desc">Perawatan khusus untuk membentuk dan merampingkan tubuh, menargetkan lemak membandel dengan presisi.</p>
+                        <a href="contouring.php" class="service-link">
+                            Learn more
+                            <span class="service-link-arrow">→</span>
+                        </a>
+                    </div>
+                </div>
+        
+            </div>
+        
+            <!-- CTA -->
+            <div class="services-cta">
+                <h3 class="services-cta-title">Siap untuk transformasi kecantikan Anda?</h3>
+                <a href="#kontak" class="btn-primary">Book a Consultation Now</a>
+            </div>
+        </section>
             <!-- Kontak -->
             <section id="kontak">
                 <h2 class="section-header">Hubungi <em>Kami</em></h2>
