@@ -197,6 +197,8 @@ nav a:hover { /* ini adalah pseudo class yang berfungsi memberikan efek atau sty
     font-family: 'DM Sans', sans-serif;
     font-weight: 500;
     transition: background 0.3s, transform 0.2s;
+    border: none;
+    cursor: pointer;
 }
  
 .btn-primary:hover {
@@ -417,6 +419,7 @@ nav a:hover { /* ini adalah pseudo class yang berfungsi memberikan efek atau sty
     color: #7a4d5c; 
     font-weight: 300; 
     margin-bottom: 20px;
+    margin-top: 20px; 
 }
 .form-group { 
     display: flex; 
@@ -529,7 +532,4 @@ footer {
     font-family: 'DM Sans', sans-serif;
 }
 .td-jam { color: #7a4d5c; font-weight: 300; }
-
-
-
 
