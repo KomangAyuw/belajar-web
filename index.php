@@ -19,7 +19,7 @@
                 <a href="#treatment">Spesialis</a>
                 <a href="jadwal.php">Jadwal</a>
                 <a href="#kontak">Kontak</a>
-                <a href="SignUp.php" class="btn">Sign Up</a>
+                <a href="pages/auth/SignUp.php" class="btn">Sign Up</a>
             </nav>
         </header>
         <main>
@@ -74,7 +74,7 @@
                         <span class="service-tag">Surgical</span>
                         <h3 class="service-name">Facelift Procedures</h3>
                         <p class="service-desc">Teknik bedah canggih untuk memulihkan kontur wajah yang tampak muda dengan hasil alami dan tahan lama.</p>
-                        <a href="facelift.php" class="service-link">
+                        <a href="pages/treatment/facelift.php" class="service-link">
                             Learn more
                             <span class="service-link-arrow">→</span>
                         </a>
@@ -95,7 +95,7 @@
                         <span class="service-tag">Injectable</span>
                         <h3 class="service-name">Botox & Fillers</h3>
                         <p class="service-desc">Perawatan suntik yang disetujui FDA untuk menghaluskan kerutan dan memulihkan volume wajah secara alami.</p>
-                        <a href="botox.php" class="service-link">
+                        <a href="pages/treatment/botox.php" class="service-link">
                             Learn more
                             <span class="service-link-arrow">→</span>
                         </a>
@@ -116,7 +116,7 @@
                         <span class="service-tag">Technology</span>
                         <h3 class="service-name">Laser Treatments</h3>
                         <p class="service-desc">Teknologi laser terkini untuk mengatasi pigmentasi, bekas jerawat, dan tanda penuaan secara efektif.</p>
-                        <a href="laser.php" class="service-link">
+                        <a href="pages/treatment/laser.php" class="service-link">
                             Learn more
                             <span class="service-link-arrow">→</span>
                         </a>
@@ -137,7 +137,7 @@
                         <span class="service-tag">Contouring</span>
                         <h3 class="service-name">Body Contouring</h3>
                         <p class="service-desc">Perawatan khusus untuk membentuk dan merampingkan tubuh, menargetkan lemak membandel dengan presisi.</p>
-                        <a href="contouring.php" class="service-link">
+                        <a href="pages/treatment/contouring.php" class="service-link">
                             Learn more
                             <span class="service-link-arrow">→</span>
                         </a>
