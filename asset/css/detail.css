@@ -1,22 +1,12 @@
-/*
-=============================================================
-detail.css  —  Simpan di: asset/css/detail.css
-Dipakai oleh: facelift.html, botox.html, laser.html, contouring.html
-=============================================================
-*/
 
-/* ── Reset padding body karena ada fixed header ── */
 .detail-page {
     background: #fdf0f5;
 }
 
 .detail-main {
-    padding-top: 72px; /* tinggi header agar tidak tertimpa */
+    padding-top: 72px; 
 }
 
-/* ══════════════════════════════════════
-   HERO
-══════════════════════════════════════ */
 .detail-hero {
     position: relative;
     width: 100%;
