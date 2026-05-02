@@ -14,12 +14,12 @@
     <header>
         <div class="logo">GlowCare Clinic</div>
         <nav>
-            <a href="index.html#beranda">Beranda</a>
-            <a href="index.html#tentang">Tentang kami</a>
-            <a href="index.html#services">Services</a>
-            <a href="jadwal.php">Jadwal</a>
-            <a href="index.html#kontak">Kontak</a>
-            <a href="SignUp.php" class="btn">Sign Up</a>
+            <a href="../../index.php#beranda">Beranda</a>
+            <a href="../../index.php#tentang">Tentang kami</a>
+            <a href="../../index.php#services">Services</a>
+            <a href="../../jadwal.php">Jadwal</a>
+            <a href="../../index.php#kontak">Kontak</a>
+            <a href="../../SignUp.php" class="btn">Sign Up</a>
         </nav>
     </header>
 
@@ -34,12 +34,11 @@
             />
             <div class="detail-hero-overlay"></div>
             <div class="detail-hero-content">
-                <a href="index.html#services" class="detail-back">← Kembali ke Services</a>
                 <span class="detail-tag">Contouring</span>
                 <h1 class="detail-title">Body <em>Contouring</em></h1>
                 <p class="detail-subtitle">Perawatan khusus untuk membentuk dan merampingkan tubuh, menargetkan lemak membandel dan meningkatkan siluet alami Anda dengan presisi.</p>
                 <div class="detail-stats">
-                    <div class="detail-stat"><span class="stat-val">1–3 Jam</span><span class="stat-lbl">Durasi Treatment</span></div>
+                    <div class="detail-stat"><span class="stat-val">1-3 Jam</span><span class="stat-lbl">Durasi Treatment</span></div>
                     <div class="detail-stat"><span class="stat-val">Permanen</span><span class="stat-lbl">Pengurangan Lemak</span></div>
                     <div class="detail-stat"><span class="stat-val">93%</span><span class="stat-lbl">Tingkat Kepuasan</span></div>
                 </div>
@@ -63,7 +62,7 @@
                 <div class="overview-card">
                     <div class="overview-icon">✦</div>
                     <h3>Durasi</h3>
-                    <p>Prosedur non-bedah 1–3 jam dengan downtime minimal. Prosedur bedah memerlukan pemulihan 1–4 minggu dengan hasil yang lebih dramatis dan permanen.</p>
+                    <p>Prosedur non-bedah 1-3 jam dengan downtime minimal. Prosedur bedah memerlukan pemulihan 1-4 minggu dengan hasil yang lebih dramatis dan permanen.</p>
                 </div>
                 <div class="overview-card">
                     <div class="overview-icon">✦</div>
@@ -78,7 +77,7 @@
         </section>
 
         <!-- PROSES -->
-        <section class="detail-section detail-section--alt">
+        <section class="detail-section">
             <h2 class="detail-section-title">Proses Treatment</h2>
             <div class="process-list">
                 <div class="process-step">
@@ -131,12 +130,12 @@
                 <div class="type-card">
                     <h3>Liposuction</h3>
                     <p>Prosedur bedah untuk menghilangkan lemak secara langsung dari area yang ditargetkan, memberikan hasil yang lebih dramatis dan presisi.</p>
-                    <span class="type-recovery">Pemulihan: 1–2 minggu</span>
+                    <span class="type-recovery">Pemulihan: 1-2 minggu</span>
                 </div>
                 <div class="type-card">
                     <h3>HIFU Body</h3>
                     <p>Menggunakan gelombang ultrasonik terfokus untuk memecah sel lemak dan mengencangkan kulit dari dalam, tanpa sayatan.</p>
-                    <span class="type-recovery">Pemulihan: 1–2 hari</span>
+                    <span class="type-recovery">Pemulihan: 1-2 hari</span>
                 </div>
                 <div class="type-card">
                     <h3>RF Body Tightening</h3>
@@ -146,7 +145,7 @@
                 <div class="type-card">
                     <h3>Tummy Tuck</h3>
                     <p>Abdominoplasty untuk menghilangkan kulit dan lemak berlebih di perut, serta mengencangkan otot dinding perut.</p>
-                    <span class="type-recovery">Pemulihan: 3–4 minggu</span>
+                    <span class="type-recovery">Pemulihan: 3-4 minggu</span>
                 </div>
                 <div class="type-card">
                     <h3>EMSculpt</h3>
@@ -157,7 +156,7 @@
         </section>
 
         <!-- FAQ -->
-        <section class="detail-section detail-section--alt">
+        <section class="detail-section">
             <h2 class="detail-section-title">FAQ</h2>
             <div class="faq-list">
                 <div class="faq-item">
@@ -174,7 +173,7 @@
                 </div>
                 <div class="faq-item">
                     <button class="faq-q" onclick="toggleFaq(this)">Kapan hasil akan terlihat? <span>+</span></button>
-                    <div class="faq-a">Untuk prosedur non-bedah, hasil mulai terlihat dalam 4–12 minggu dan terus membaik hingga 3–6 bulan. Untuk liposuction, pembengkakan mereda dalam 4–6 minggu dan hasil akhir terlihat dalam 3–6 bulan.</div>
+                    <div class="faq-a">Untuk prosedur non-bedah, hasil mulai terlihat dalam 4-12 minggu dan terus membaik hingga 3-6 bulan. Untuk liposuction, pembengkakan mereda dalam 4-6 minggu dan hasil akhir terlihat dalam 3-6 bulan.</div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-q" onclick="toggleFaq(this)">Apakah prosedur ini aman? <span>+</span></button>
@@ -192,12 +191,7 @@
 
     </main>
 
-    <!-- FOOTER -->
-    <footer>
-        <div class="logo">GlowCare Clinic</div>
-        <div class="footer-copy">@2025 GlowCare Clinic. All rights reserved.</div>
-    </footer>
-
-    <script src="asset/js/detail.js"></script>
+    <script src="../../asset/js/detail.js"></script>
+    <script src="../../asset/js/script.js"></script>
 </body>
 </html>

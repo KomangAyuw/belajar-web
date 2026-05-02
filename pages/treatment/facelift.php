@@ -14,12 +14,12 @@
     <header>
         <div class="logo">GlowCare Clinic</div>
         <nav>
-            <a href="index.html#beranda">Beranda</a>
-            <a href="index.html#tentang">Tentang kami</a>
-            <a href="index.html#services">Services</a>
-            <a href="jadwal.php">Jadwal</a>
-            <a href="index.html#kontak">Kontak</a>
-            <a href="SignUp.php" class="btn">Sign Up</a>
+            <a href="../../index.php#beranda">Beranda</a>
+            <a href="../../index.php#tentang">Tentang kami</a>
+            <a href="../../index.php#services">Services</a>
+            <a href="../../jadwal.php">Jadwal</a>
+            <a href="../../index.php#kontak">Kontak</a>
+            <a href="../../SignUp.php" class="btn">Sign Up</a>
         </nav>
     </header>
 
@@ -34,13 +34,12 @@
             />
             <div class="detail-hero-overlay"></div>
             <div class="detail-hero-content">
-                <a href="index.html#services" class="detail-back">← Kembali ke Services</a>
                 <span class="detail-tag">Surgical</span>
                 <h1 class="detail-title">Facelift <em>Procedures</em></h1>
                 <p class="detail-subtitle">Teknik bedah canggih untuk memulihkan kontur wajah yang tampak muda dengan hasil alami dan tahan lama.</p>
                 <div class="detail-stats">
-                    <div class="detail-stat"><span class="stat-val">2–4 Jam</span><span class="stat-lbl">Durasi Operasi</span></div>
-                    <div class="detail-stat"><span class="stat-val">10–15 Thn</span><span class="stat-lbl">Hasil Tahan Lama</span></div>
+                    <div class="detail-stat"><span class="stat-val">2-4 Jam</span><span class="stat-lbl">Durasi Operasi</span></div>
+                    <div class="detail-stat"><span class="stat-val">10-15 Thn</span><span class="stat-lbl">Hasil Tahan Lama</span></div>
                     <div class="detail-stat"><span class="stat-val">95%</span><span class="stat-lbl">Tingkat Kepuasan</span></div>
                 </div>
             </div>
@@ -63,7 +62,7 @@
                 <div class="overview-card">
                     <div class="overview-icon">✦</div>
                     <h3>Durasi</h3>
-                    <p>Operasi berlangsung 2–4 jam di bawah anestesi. Hasil bertahan 10–15 tahun. Kebanyakan pasien kembali bekerja dalam 2–3 minggu.</p>
+                    <p>Operasi berlangsung 2-4 jam di bawah anestesi. Hasil bertahan 10-15 tahun. Kebanyakan pasien kembali bekerja dalam 2-3 minggu.</p>
                 </div>
                 <div class="overview-card">
                     <div class="overview-icon">✦</div>
@@ -80,7 +79,7 @@
         </section>
 
         <!-- PROSES -->
-        <section class="detail-section detail-section--alt">
+        <section class="detail-section">
             <h2 class="detail-section-title">Proses Treatment</h2>
             <div class="process-list">
                 <div class="process-step">
@@ -128,27 +127,27 @@
                 <div class="type-card">
                     <h3>Traditional Facelift</h3>
                     <p>Peremajaan komprehensif yang menangani wajah bagian bawah, jowl, dan leher dengan hasil dramatis dan tahan lama.</p>
-                    <span class="type-recovery">Pemulihan: 2–3 minggu</span>
+                    <span class="type-recovery">Pemulihan: 2-3 minggu</span>
                 </div>
                 <div class="type-card">
                     <h3>Mini Facelift</h3>
                     <p>Pilihan kurang invasif untuk kendur ringan hingga sedang dengan sayatan lebih pendek dan pemulihan lebih cepat.</p>
-                    <span class="type-recovery">Pemulihan: 1–2 minggu</span>
+                    <span class="type-recovery">Pemulihan: 1-2 minggu</span>
                 </div>
                 <div class="type-card">
                     <h3>Deep Plane Facelift</h3>
                     <p>Teknik canggih yang mengangkat struktur wajah lebih dalam untuk hasil paling alami dan tahan lama.</p>
-                    <span class="type-recovery">Pemulihan: 3–4 minggu</span>
+                    <span class="type-recovery">Pemulihan: 3-4 minggu</span>
                 </div>
                 <div class="type-card">
                     <h3>Mid-Facelift</h3>
                     <p>Menargetkan pipi dan area bawah mata untuk memulihkan volume dan menghaluskan lipatan nasolabial.</p>
-                    <span class="type-recovery">Pemulihan: 1–2 minggu</span>
+                    <span class="type-recovery">Pemulihan: 1-2 minggu</span>
                 </div>
                 <div class="type-card">
                     <h3>Neck Lift</h3>
                     <p>Fokus pada pengencangan kulit leher yang kendur dan menghilangkan pita untuk garis rahang yang lebih halus.</p>
-                    <span class="type-recovery">Pemulihan: 2–3 minggu</span>
+                    <span class="type-recovery">Pemulihan: 2-3 minggu</span>
                 </div>
                 <div class="type-card">
                     <h3>Temporal Lift</h3>
@@ -159,12 +158,12 @@
         </section>
 
         <!-- FAQ -->
-        <section class="detail-section detail-section--alt">
+        <section class="detail-section">
             <h2 class="detail-section-title">FAQ</h2>
             <div class="faq-list">
                 <div class="faq-item">
                     <button class="faq-q" onclick="toggleFaq(this)">Berapa lama hasil facelift bertahan? <span>+</span></button>
-                    <div class="faq-a">Hasil facelift biasanya bertahan 10–15 tahun, meskipun penuaan alami terus berlanjut. Banyak pasien mempertahankan penampilan segar mereka selama satu dekade atau lebih dengan perawatan kulit yang tepat.</div>
+                    <div class="faq-a">Hasil facelift biasanya bertahan 10-15 tahun, meskipun penuaan alami terus berlanjut. Banyak pasien mempertahankan penampilan segar mereka selama satu dekade atau lebih dengan perawatan kulit yang tepat.</div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-q" onclick="toggleFaq(this)">Apakah akan ada bekas luka yang terlihat? <span>+</span></button>
@@ -172,7 +171,7 @@
                 </div>
                 <div class="faq-item">
                     <button class="faq-q" onclick="toggleFaq(this)">Bagaimana proses pemulihannya? <span>+</span></button>
-                    <div class="faq-a">Perkirakan 2–3 minggu sebelum kembali bekerja. Pembengkakan dan memar awal memuncak pada 3–5 hari dan membaik dengan cepat. Sebagian besar ketidaknyamanan ditangani dengan obat pereda nyeri yang diresepkan.</div>
+                    <div class="faq-a">Perkirakan 2-3 minggu sebelum kembali bekerja. Pembengkakan dan memar awal memuncak pada 3-5 hari dan membaik dengan cepat. Sebagian besar ketidaknyamanan ditangani dengan obat pereda nyeri yang diresepkan.</div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-q" onclick="toggleFaq(this)">Apakah saya akan terlihat alami atau berlebihan? <span>+</span></button>
@@ -194,12 +193,7 @@
 
     </main>
 
-    <!-- FOOTER -->
-    <footer>
-        <div class="logo">GlowCare Clinic</div>
-        <div class="footer-copy">@2025 GlowCare Clinic. All rights reserved.</div>
-    </footer>
-
-    <script src="asset/js/detail.js"></script>
+    <script src="../../asset/js/detail.js"></script>
+    <script src="../../asset/js/script.js"></script>
 </body>
 </html>

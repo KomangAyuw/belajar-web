@@ -17,7 +17,7 @@
     <body>
         <div class="page-top">
             <div class="logo">GlowCare Clinic</div>
-            <a href="index.php" class="page-back">Kembali ke Beranda</a>
+            <a href="index.php" class="back-home">Back to Home</a>
         </div>
         <main>
             <h1 class="page-title">Jadwal <em>Dokter & Spesialis</em></h1>

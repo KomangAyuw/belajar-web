@@ -7,49 +7,40 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400&family=DM+Sans:wght@300;400;500&display=swap">
     <link rel="stylesheet" href="../../asset/css/style.css">
 </head>
-<body>
-    <header>
-        <div class="logo">GlowCare Clinic</div>
-        <nav>
-            <a href="SignUp.php">Sign Up</a>
-            <a href="../../index.php">Home</a>
-        </nav>
-    </header>
+<body class="page-auth">
 
-    <main>
-       <main>
-        <section id="kontak">
-            <div class="container">
-                <div class="section-header">
-                    <h1 class="page-title">Selamat Datang Kembali di <em>GlowCare Clinic</em></h1>
-                    <p class="form-subtitle">Masukkan akun untuk login</p>
-                </div>
+    <section class="kiri-SignIn">
+        <div class="kiri-overlay"></div>
+        <div class="kiri-teks">
+            <p class="kiri-tag">Premium Beauty Clinic</p>
+            <h2 class="kiri-judul">Selamat <em>Datang Kembali</em></h2>
+            <p class="kiri-desc">Masuk untuk melihat jadwal dan mengelola booking perawatan kamu.</p>
+        </div>
+    </section>
 
-                <form class="kontak-form" action="../../index.php" method="GET">
-                    <div class="form-group">
-                        <label class="form-label">Email Address</label>
-                        <input type="email" name="email" class="form-input" placeholder="contoh@email.com" required>
-                    </div>
+    <section class="kanan">
+        <a href="../../index.php" class="back-home">Back to Home</a>
+        <div class="k-logo">GlowCare Clinic</div>
+        <h1 class="k-judul">Masuk ke <em>Akun</em></h1>
+        
 
-                    <div class="form-group">
-                        <label class="form-label">Password</label>
-                        <input type="password" name="password" class="form-input" placeholder="Masukkan kata sandi Anda" required>
-                    </div>
-
-                    <button type="submit" class="btn-primary" ">
-                        Sign In
-                    </button>
-
-                    <p class="form-subtitle" style="margin-top: 20px; text-align: center;">
-                        Belum punya akun? <a href="SignUp.php">Daftar di sini</a>
-                    </p>
-                </form>
+        <form action="../../index.php" method="GET">
+            <div class="grup">
+                <label class="label">Email Address</label>
+                <input type="email" name="email" class="input" placeholder="contoh@email.com" required>
             </div>
-        </section>
-    </main>
+            <div class="grup">
+                <label class="label">Password</label>
+                <input type="password" name="password" class="input" placeholder="Masukkan kata sandi" required>
+            </div>
+            <button type="submit" class="btn-primary" style="width:100%;">Sign In</button>
+        </form>
 
-    <footer>
-        <p class="footer-copy">© 2026 GlowCare Clinic. All rights reserved.</p>
-    </footer>
+        <p class="form-subtitle">
+            Belum punya akun? <a href="SignUp.php">Daftar di sini</a>
+        </p>
+    </section>
+    <script src="../../asset/js/auth.js"></script>
+
 </body>
 </html>

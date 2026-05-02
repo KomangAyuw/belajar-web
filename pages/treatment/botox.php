@@ -14,12 +14,12 @@
     <header>
         <div class="logo">GlowCare Clinic</div>
         <nav>
-            <a href="index.html#beranda">Beranda</a>
-            <a href="index.html#tentang">Tentang kami</a>
-            <a href="index.html#services">Services</a>
-            <a href="jadwal.php">Jadwal</a>
-            <a href="index.html#kontak">Kontak</a>
-            <a href="SignUp.php" class="btn">Sign Up</a>
+            <a href="../../index.php#beranda">Beranda</a>
+            <a href="../../index.php#tentang">Tentang kami</a>
+            <a href="../../index.php#services">Services</a>
+            <a href="../../jadwal.php">Jadwal</a>
+            <a href="../../index.php#kontak">Kontak</a>
+            <a href="../../SignUp.php" class="btn">Sign Up</a>
         </nav>
     </header>
 
@@ -34,13 +34,12 @@
             />
             <div class="detail-hero-overlay"></div>
             <div class="detail-hero-content">
-                <a href="index.html#services" class="detail-back">← Kembali ke Services</a>
                 <span class="detail-tag">Injectable</span>
                 <h1 class="detail-title">Botox & <em>Fillers</em></h1>
                 <p class="detail-subtitle">Perawatan suntik yang disetujui FDA untuk menghaluskan kerutan dan memulihkan volume wajah secara alami dengan downtime minimal.</p>
                 <div class="detail-stats">
-                    <div class="detail-stat"><span class="stat-val">15–30 Mnt</span><span class="stat-lbl">Durasi Treatment</span></div>
-                    <div class="detail-stat"><span class="stat-val">3–18 Bln</span><span class="stat-lbl">Hasil Tahan Lama</span></div>
+                    <div class="detail-stat"><span class="stat-val">15-30 Mnt</span><span class="stat-lbl">Durasi Treatment</span></div>
+                    <div class="detail-stat"><span class="stat-val">3-18 Bln</span><span class="stat-lbl">Hasil Tahan Lama</span></div>
                     <div class="detail-stat"><span class="stat-val">98%</span><span class="stat-lbl">Tingkat Kepuasan</span></div>
                 </div>
             </div>
@@ -63,7 +62,7 @@
                 <div class="overview-card">
                     <div class="overview-icon">✦</div>
                     <h3>Durasi</h3>
-                    <p>Sesi cepat 15–30 menit dengan hasil langsung terlihat. Efek Botox bertahan 3–6 bulan, filler 6–18 bulan tergantung produk dan area.</p>
+                    <p>Sesi cepat 15-30 menit dengan hasil langsung terlihat. Efek Botox bertahan 3-6 bulan, filler 6-18 bulan tergantung produk dan area.</p>
                 </div>
                 <div class="overview-card">
                     <div class="overview-icon">✦</div>
@@ -78,7 +77,7 @@
         </section>
 
         <!-- PROSES -->
-        <section class="detail-section detail-section--alt">
+        <section class="detail-section">
             <h2 class="detail-section-title">Proses Treatment</h2>
             <div class="process-list">
                 <div class="process-step">
@@ -99,7 +98,7 @@
                     <div class="process-num">03</div>
                     <div class="process-body">
                         <h3>Treatment</h3>
-                        <p>Menggunakan jarum ultra-halus, produk disuntikkan dengan hati-hati ke area yang ditargetkan. Proses ini cepat, biasanya hanya 15–30 menit dengan ketidaknyamanan minimal.</p>
+                        <p>Menggunakan jarum ultra-halus, produk disuntikkan dengan hati-hati ke area yang ditargetkan. Proses ini cepat, biasanya hanya 15-30 menit dengan ketidaknyamanan minimal.</p>
                     </div>
                 </div>
                 <div class="process-step">
@@ -129,7 +128,7 @@
                 </div>
                 <div class="faq-item">
                     <button class="faq-q" onclick="toggleFaq(this)">Berapa lama hasil bertahan? <span>+</span></button>
-                    <div class="faq-a">Botox biasanya bertahan 3–6 bulan, sedangkan filler dermal dapat bertahan 6–18 bulan tergantung jenis produk dan area perawatan.</div>
+                    <div class="faq-a">Botox biasanya bertahan 3-6 bulan, sedangkan filler dermal dapat bertahan 6-18 bulan tergantung jenis produk dan area perawatan.</div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-q" onclick="toggleFaq(this)">Apakah ada downtime? <span>+</span></button>
@@ -137,7 +136,7 @@
                 </div>
                 <div class="faq-item">
                     <button class="faq-q" onclick="toggleFaq(this)">Kapan saya akan melihat hasilnya? <span>+</span></button>
-                    <div class="faq-a">Hasil filler terlihat segera, meskipun hasil akhir muncul setelah pembengkakan mereda (2–7 hari). Botox membutuhkan 3–5 hari untuk mulai bekerja, dengan efek penuh terlihat pada 10–14 hari.</div>
+                    <div class="faq-a">Hasil filler terlihat segera, meskipun hasil akhir muncul setelah pembengkakan mereda (2-7 hari). Botox membutuhkan 3-5 hari untuk mulai bekerja, dengan efek penuh terlihat pada 10-14 hari.</div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-q" onclick="toggleFaq(this)">Apakah ada efek samping? <span>+</span></button>
@@ -155,12 +154,7 @@
 
     </main>
 
-    <!-- FOOTER -->
-    <footer>
-        <div class="logo">GlowCare Clinic</div>
-        <div class="footer-copy">@2025 GlowCare Clinic. All rights reserved.</div>
-    </footer>
-
-    <script src="asset/js/detail.js"></script>
+    <script src="../../asset/js/detail.js"></script>
+    <script src="../../asset/js/script.js"></script>
 </body>
 </html>

@@ -14,12 +14,12 @@
     <header>
         <div class="logo">GlowCare Clinic</div>
         <nav>
-            <a href="index.html#beranda">Beranda</a>
-            <a href="index.html#tentang">Tentang kami</a>
-            <a href="index.html#services">Services</a>
-            <a href="jadwal.php">Jadwal</a>
-            <a href="index.html#kontak">Kontak</a>
-            <a href="SignUp.php" class="btn">Sign Up</a>
+            <a href="../../index.php#beranda">Beranda</a>
+            <a href="../../index.php#tentang">Tentang kami</a>
+            <a href="../../index.php#services">Services</a>
+            <a href="../../jadwal.php">Jadwal</a>
+            <a href="../../index.php#kontak">Kontak</a>
+            <a href="../../SignUp.php" class="btn">Sign Up</a>
         </nav>
     </header>
 
@@ -34,13 +34,12 @@
             />
             <div class="detail-hero-overlay"></div>
             <div class="detail-hero-content">
-                <a href="index.html#services" class="detail-back">← Kembali ke Services</a>
                 <span class="detail-tag">Technology</span>
                 <h1 class="detail-title">Laser <em>Treatments</em></h1>
                 <p class="detail-subtitle">Teknologi laser terkini untuk mengatasi pigmentasi, bekas jerawat, dan tanda penuaan secara efektif dan aman.</p>
                 <div class="detail-stats">
-                    <div class="detail-stat"><span class="stat-val">30–60 Mnt</span><span class="stat-lbl">Durasi Treatment</span></div>
-                    <div class="detail-stat"><span class="stat-val">6–12 Bln</span><span class="stat-lbl">Hasil Tahan Lama</span></div>
+                    <div class="detail-stat"><span class="stat-val">3060 Mnt</span><span class="stat-lbl">Durasi Treatment</span></div>
+                    <div class="detail-stat"><span class="stat-val">612 Bln</span><span class="stat-lbl">Hasil Tahan Lama</span></div>
                     <div class="detail-stat"><span class="stat-val">96%</span><span class="stat-lbl">Tingkat Kepuasan</span></div>
                 </div>
             </div>
@@ -63,7 +62,7 @@
                 <div class="overview-card">
                     <div class="overview-icon">✦</div>
                     <h3>Durasi</h3>
-                    <p>Sesi 30–60 menit dengan interval 4–6 minggu. Sebagian besar kondisi memerlukan 3–6 sesi untuk hasil optimal dengan pemeliharaan tahunan.</p>
+                    <p>Sesi 3060 menit dengan interval 46 minggu. Sebagian besar kondisi memerlukan 36 sesi untuk hasil optimal dengan pemeliharaan tahunan.</p>
                 </div>
                 <div class="overview-card">
                     <div class="overview-icon">✦</div>
@@ -78,7 +77,7 @@
         </section>
 
         <!-- PROSES -->
-        <section class="detail-section detail-section--alt">
+        <section class="detail-section">
             <h2 class="detail-section-title">Proses Treatment</h2>
             <div class="process-list">
                 <div class="process-step">
@@ -92,7 +91,7 @@
                     <div class="process-num">02</div>
                     <div class="process-body">
                         <h3>Persiapan Kulit</h3>
-                        <p>Kulit dibersihkan secara menyeluruh dan krim anestesi topikal dioleskan 30–45 menit sebelum perawatan untuk memastikan kenyamanan maksimal selama prosedur.</p>
+                        <p>Kulit dibersihkan secara menyeluruh dan krim anestesi topikal dioleskan 3045 menit sebelum perawatan untuk memastikan kenyamanan maksimal selama prosedur.</p>
                     </div>
                 </div>
                 <div class="process-step">
@@ -113,7 +112,7 @@
                     <div class="process-num">05</div>
                     <div class="process-body">
                         <h3>Sesi Lanjutan</h3>
-                        <p>Berdasarkan respons kulit Anda, sesi lanjutan dijadwalkan setiap 4–6 minggu. Kemajuan dipantau dan parameter disesuaikan untuk hasil yang optimal.</p>
+                        <p>Berdasarkan respons kulit Anda, sesi lanjutan dijadwalkan setiap 46 minggu. Kemajuan dipantau dan parameter disesuaikan untuk hasil yang optimal.</p>
                     </div>
                 </div>
             </div>
@@ -126,38 +125,38 @@
                 <div class="type-card">
                     <h3>Fractional Laser</h3>
                     <p>Merangsang produksi kolagen dan elastin untuk memperbaiki tekstur kulit, bekas jerawat, dan tanda penuaan secara menyeluruh.</p>
-                    <span class="type-recovery">Pemulihan: 3–7 hari</span>
+                    <span class="type-recovery">Pemulihan: 37 hari</span>
                 </div>
                 <div class="type-card">
                     <h3>Q-Switch Laser</h3>
                     <p>Teknologi laser impuls pendek yang efektif untuk menghilangkan pigmentasi, flek hitam, dan tato dengan presisi tinggi.</p>
-                    <span class="type-recovery">Pemulihan: 1–3 hari</span>
+                    <span class="type-recovery">Pemulihan: 13 hari</span>
                 </div>
                 <div class="type-card">
                     <h3>Pico Laser</h3>
                     <p>Laser generasi terbaru dengan pulsa ultra-pendek untuk hasil lebih cepat dan pemulihan minimal, ideal untuk semua jenis kulit.</p>
-                    <span class="type-recovery">Pemulihan: 1–2 hari</span>
+                    <span class="type-recovery">Pemulihan: 12 hari</span>
                 </div>
                 <div class="type-card">
                     <h3>IPL (Intense Pulsed Light)</h3>
                     <p>Perawatan cahaya intens untuk mengatasi kemerahan, pembuluh darah, dan pigmentasi difus secara lembut dan efektif.</p>
-                    <span class="type-recovery">Pemulihan: 1–2 hari</span>
+                    <span class="type-recovery">Pemulihan: 12 hari</span>
                 </div>
                 <div class="type-card">
                     <h3>CO2 Laser</h3>
                     <p>Laser ablasi untuk peremajaan kulit yang dramatis, mengatasi kerutan dalam dan bekas luka yang lebih signifikan.</p>
-                    <span class="type-recovery">Pemulihan: 7–14 hari</span>
+                    <span class="type-recovery">Pemulihan: 714 hari</span>
                 </div>
                 <div class="type-card">
                     <h3>Laser Vascular</h3>
                     <p>Khusus menargetkan pembuluh darah yang terlihat, kemerahan kronis, dan rosacea untuk kulit yang lebih merata dan bersih.</p>
-                    <span class="type-recovery">Pemulihan: 2–5 hari</span>
+                    <span class="type-recovery">Pemulihan: 25 hari</span>
                 </div>
             </div>
         </section>
 
         <!-- FAQ -->
-        <section class="detail-section detail-section--alt">
+        <section class="detail-section">
             <h2 class="detail-section-title">FAQ</h2>
             <div class="faq-list">
                 <div class="faq-item">
@@ -166,7 +165,7 @@
                 </div>
                 <div class="faq-item">
                     <button class="faq-q" onclick="toggleFaq(this)">Berapa sesi yang dibutuhkan? <span>+</span></button>
-                    <div class="faq-a">Ini tergantung kondisi kulit dan jenis laser. Kebanyakan perawatan memerlukan 3–6 sesi dengan interval 4–6 minggu untuk hasil optimal. Kondisi yang lebih ringan mungkin cukup dengan 1–2 sesi.</div>
+                    <div class="faq-a">Ini tergantung kondisi kulit dan jenis laser. Kebanyakan perawatan memerlukan 36 sesi dengan interval 46 minggu untuk hasil optimal. Kondisi yang lebih ringan mungkin cukup dengan 12 sesi.</div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-q" onclick="toggleFaq(this)">Apakah aman untuk semua jenis kulit? <span>+</span></button>
@@ -174,7 +173,7 @@
                 </div>
                 <div class="faq-item">
                     <button class="faq-q" onclick="toggleFaq(this)">Kapan hasil terlihat? <span>+</span></button>
-                    <div class="faq-a">Beberapa hasil terlihat segera setelah perawatan, namun peningkatan penuh biasanya terlihat 2–4 minggu setelah sesi, saat proses regenerasi kulit berlangsung. Hasil terus membaik setelah setiap sesi.</div>
+                    <div class="faq-a">Beberapa hasil terlihat segera setelah perawatan, namun peningkatan penuh biasanya terlihat 24 minggu setelah sesi, saat proses regenerasi kulit berlangsung. Hasil terus membaik setelah setiap sesi.</div>
                 </div>
                 <div class="faq-item">
                     <button class="faq-q" onclick="toggleFaq(this)">Perawatan apa yang perlu dilakukan setelah laser? <span>+</span></button>
@@ -192,12 +191,7 @@
 
     </main>
 
-    <!-- FOOTER -->
-    <footer>
-        <div class="logo">GlowCare Clinic</div>
-        <div class="footer-copy">@2025 GlowCare Clinic. All rights reserved.</div>
-    </footer>
-
-    <script src="asset/js/detail.js"></script>
+    <script src="../../asset/js/detail.js"></script>
+    <script src="../../asset/js/script.js"></script>
 </body>
 </html>

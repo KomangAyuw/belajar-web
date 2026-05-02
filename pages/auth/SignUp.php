@@ -1,64 +1,53 @@
 <!DOCTYPE html>
-<html lang="id">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Daftar Akun - Aesthetic Theme</title>
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="../../asset/css/style.css"> 
+    <title>Sign Up - GlowCare Clinic</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;1,400&family=DM+Sans:wght@300;400;500&display=swap">
+    <link rel="stylesheet" href="../../asset/css/style.css">
 </head>
-<body>
+<body class="page-auth">
 
-    <header>
-        <div class="logo">GlowCare Clinic</div>
-        <nav>
-            <a href="Signin.php">Login</a>
-        </nav>
-    </header>
-
-    <section id="kontak">
-        <div class="container">
-            
-            <div class="section-header">
-                <h1 class="page-title">Mulai Perjalanan <em>Baru</em></h1>
-                <p class="form-subtitle">Silahkan lengkapi data di bawah ini untuk mendaftar.</p>
-            </div>
-
-            <form class="kontak-form">
-                <div class="form-group">
-                    <label class="form-label">Username</label>
-                    <input type="text" class="form-input" placeholder="Masukkan username Anda" required>
-                </div>
-
-                <div class="form-group">
-                    <label class="form-label">Email Address</label>
-                    <input type="email" class="form-input" placeholder="contoh@email.com" required>
-                </div>
-
-                <div class="form-group">
-                    <label class="form-label">Password</label>
-                    <input type="password" class="form-input" placeholder="Kata sandi minimal 8 karakter" required>
-                </div>
-
-                <div class="form-group">
-                    <label class="form-label">Konfirmasi Password</label>
-                    <input type="password" class="form-input" placeholder="Ulangi kata sandi Anda" required>
-                </div>
-
-                <button type="submit" class="btn-primary">
-                    Daftar Sekarang
-                </button>
-                
-                <p class="form-subtitle" style="margin-top: 10px;">
-                    Sudah punya akun? <a href="Signin.php">Masuk di sini</a>
-                </p>
-            </form>
+    <section class="kiri-SignUp">
+        <div class="kiri-overlay"></div>
+        <div class="kiri-teks">
+            <p class="kiri-tag">Premium Beauty Clinic</p>
+            <h2 class="kiri-judul">Kulit Sehat, <em>Tampil Percaya Diri</em></h2>
+            <p class="kiri-desc">Daftarkan diri dan temukan perawatan kulit terbaik yang dirancang khusus untukmu.</p>
         </div>
     </section>
 
-    <footer>
-        <p class="footer-copy">© 2026 GlowCare Clinic. All rights reserved.</p>
-    </footer>
+    <div class="kanan" style="overflow-y: auto;">
+        <a href="../../index.php" class="back-home">Back to Home</a>
+        <div class="k-logo">GlowCare Clinic</div>
+        <h1 class="k-judul">Buat <em>Akun Baru</em></h1>
+
+        <form method="POST" action="SignIn.php">
+            <div class="grup">
+                <label class="label">Username</label>
+                <input type="text" name="username" class="input" placeholder="Masukkan username Anda" required>
+            </div>
+            <div class="grup">
+                <label class="label">Email Address</label>
+                <input type="email" name="email" class="input" placeholder="contoh@email.com" required>
+            </div>
+            <div class="grup">
+                <label class="label">Password</label>
+                <input type="password" name="password" class="input" placeholder="Kata sandi minimal 8 karakter" required>
+            </div>
+            <div class="grup">
+                <label class="label">Konfirmasi Password</label>
+                <input type="password" name="konfirmasi" class="input" placeholder="Ulangi kata sandi Anda" required>
+            </div>
+            <button type="submit" class="btn-primary" style="width:100%;">Daftar Sekarang</button>
+        </form>
+
+        <p class="form-subtitle">
+            Sudah punya akun? <a href="SignIn.php">Masuk di sini</a>
+        </p>
+    </section>
+    <script src="../../asset/js/auth.js"></script>
 
 </body>
 </html>
