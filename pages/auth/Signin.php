@@ -9,10 +9,19 @@
 </head>
 <body class="page-auth">
 
+<?php
+if (isset($_GET['error'])) {
+    echo '<div style="position: fixed; top: 20px; right: 20px; background: #ff6b6b; color: white; padding: 10px 20px; border-radius: 5px; z-index: 1000;">' . htmlspecialchars($_GET['error']) . '</div>';
+}
+if (isset($_GET['success'])) {
+    echo '<div style="position: fixed; top: 20px; right: 20px; background: #51cf66; color: white; padding: 10px 20px; border-radius: 5px; z-index: 1000;">' . htmlspecialchars($_GET['success']) . '</div>';
+}
+?>
+
     <section class="kiri-SignIn">
         <div class="kiri-overlay"></div>
         <div class="kiri-teks">
-            <p class="kiri-tag">Premium Beauty Clinic</p>
+            <p class="kiri-tag">GlowCare Clinic</p>
             <h2 class="kiri-judul">Selamat <em>Datang Kembali</em></h2>
             <p class="kiri-desc">Masuk untuk melihat jadwal dan mengelola booking perawatan kamu.</p>
         </div>
@@ -24,7 +33,7 @@
         <h1 class="k-judul">Masuk ke <em>Akun</em></h1>
         
 
-        <form action="../../index.php" method="GET">
+        <form action="../../bacckend/log.php" method="POST">
             <div class="grup">
                 <label class="label">Email Address</label>
                 <input type="email" name="email" class="input" placeholder="contoh@email.com" required>

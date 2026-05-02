@@ -9,6 +9,15 @@
 </head>
 <body class="page-auth">
 
+<?php
+if (isset($_GET['error'])) {
+    echo '<div style="position: fixed; top: 20px; right: 20px; background: #ff6b6b; color: white; padding: 10px 20px; border-radius: 5px; z-index: 1000;">' . htmlspecialchars($_GET['error']) . '</div>';
+}
+if (isset($_GET['success'])) {
+    echo '<div style="position: fixed; top: 20px; right: 20px; background: #51cf66; color: white; padding: 10px 20px; border-radius: 5px; z-index: 1000;">' . htmlspecialchars($_GET['success']) . '</div>';
+}
+?>
+
     <section class="kiri-SignUp">
         <div class="kiri-overlay"></div>
         <div class="kiri-teks">
@@ -23,7 +32,7 @@
         <div class="k-logo">GlowCare Clinic</div>
         <h1 class="k-judul">Buat <em>Akun Baru</em></h1>
 
-        <form method="POST" action="SignIn.php">
+        <form method="POST" action="../../bacckend/Regist.php">
             <div class="grup">
                 <label class="label">Username</label>
                 <input type="text" name="username" class="input" placeholder="Masukkan username Anda" required>
