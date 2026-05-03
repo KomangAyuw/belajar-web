@@ -9,19 +9,7 @@
         <link rel="stylesheet" href="asset/css/style.css">
     </head>
     <body>
-        <!-- HEADER -->
-        <header>
-            <div class="logo">GlowCare Clinic</div>
-            <nav>
-                <a href="#beranda">Beranda</a>
-                <a href="#tentang">Tentang kami</a>
-                <a href="#services">Treatment</a>
-                <a href="#spesialis">Spesialis</a>
-                <a href="jadwal.php">Jadwal</a>
-                <a href="#kontak">Kontak</a>
-                <a href="pages/auth/SignUp.php" class="btn">Sign Up</a>
-            </nav>
-        </header>
+        <?php include 'bacckend/nav.php'; ?>
 
         <main>
             <!-- ══ HERO ══ -->

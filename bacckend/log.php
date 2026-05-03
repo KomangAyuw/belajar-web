@@ -33,8 +33,7 @@ if ($result && mysqli_num_rows($result) === 1) {
         $_SESSION['username'] = $user['username'];
         $_SESSION['email'] = $email;
 
-        // Redirect ke dashboard atau halaman utama
-        header('Location: ../index.php?login=success');
+        header('Location: ../pages/user/dashboarduser.php');
         exit;
     }
 }

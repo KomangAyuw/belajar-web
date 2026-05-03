@@ -9,15 +9,6 @@
 </head>
 <body class="page-auth">
 
-<?php
-if (isset($_GET['error'])) {
-    echo '<div style="position: fixed; top: 20px; right: 20px; background: #ff6b6b; color: white; padding: 10px 20px; border-radius: 5px; z-index: 1000;">' . htmlspecialchars($_GET['error']) . '</div>';
-}
-if (isset($_GET['success'])) {
-    echo '<div style="position: fixed; top: 20px; right: 20px; background: #51cf66; color: white; padding: 10px 20px; border-radius: 5px; z-index: 1000;">' . htmlspecialchars($_GET['success']) . '</div>';
-}
-?>
-
     <section class="kiri-SignUp">
         <div class="kiri-overlay"></div>
         <div class="kiri-teks">
