@@ -246,26 +246,40 @@
                         </table>
                         <img src="asset/img/Contact.png" alt="GlowCare Clinic" class="kontak-img">
                     </div>
-
                     <!-- Kanan: Form -->
                     <div data-aos="fade-left" data-aos-duration="900" data-aos-delay="150">
+                        <?php if ($success): ?>
+                            <div style="padding:12px 18px;border-radius:8px;background:#e8f9f1;color:#2d7a55;border:1px solid #b6e8d0;font-size:13px;margin-bottom:16px">
+                                ✅ <?= htmlspecialchars($success) ?>
+                            </div>
+                        <?php elseif ($error): ?>
+                            <div style="padding:12px 18px;border-radius:8px;background:#fde8f2;color:#a33060;border:1px solid #f2b8d4;font-size:13px;margin-bottom:16px">
+                                ❌ <?= htmlspecialchars($error) ?>
+                            </div>
+                        <?php endif; ?>
+
                         <p class="kontak-card-title">Kirim Pesan</p>
-                        <form class="kontak-form">
+                        <form class="kontak-form" method="POST" action="backend/kirim_pesan.php">
                             <div class="form-group">
                                 <label class="form-label">Nama Lengkap</label>
-                                <input type="text" class="form-input" name="nama" placeholder="Nama kamu">
+                                <input type="text" class="form-input" name="nama"
+                                    placeholder="Nama kamu" required>
                             </div>
                             <div class="form-group">
                                 <label class="form-label">Telepon</label>
-                                <input type="tel" class="form-input" name="telp" placeholder="+62">
+                                <input type="tel" class="form-input" name="telp"
+                                    placeholder="+62">
                             </div>
                             <div class="form-group">
                                 <label class="form-label">Email</label>
-                                <input type="email" class="form-input" name="email" placeholder="email@contoh.com">
+                                <input type="email" class="form-input" name="email"
+                                    placeholder="email@contoh.com">
                             </div>
                             <div class="form-group">
                                 <label class="form-label">Pesan</label>
-                                <textarea class="form-textarea" name="pesan" placeholder="Ceritakan keluhan atau pertanyaan kamu..."></textarea>
+                                <textarea class="form-textarea" name="pesan"
+                                        placeholder="Ceritakan keluhan atau pertanyaan kamu..."
+                                        required></textarea>
                             </div>
                             <button type="submit" class="btn">Kirim Pesan</button>
                         </form>
