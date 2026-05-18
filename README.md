@@ -28,8 +28,8 @@ Secara keseluruhan, GlowCare Clinic bertujuan untuk meningkatkan efisiensi opera
 
 | Nama | NIM | 
 |---|---|
-| I Gde Surya Laksana | F1D024100 | 
-| Nurhidayah Maulidia | F1D024100 | 
+| I Gde Surya Laksana | F1D02410051 | 
+| Nurhidayah Maulidia | F1D02410022 | 
 | Ni Komang Ayu Sumeitri | F1D02410084 | 
 
 ---
